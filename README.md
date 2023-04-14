@@ -1,24 +1,24 @@
-# ECG-SIGNAL-PROCESSING
-
+# ECG-Signal-Processing
 This is a basic python program that processes ***raw ECG signals*** to obtain a ***smoothened*** signal, enabling the calculation of heartbeats from the peaks.
 
-Cannot remember where I got the dataset `noise.csv` from. Would be great if you could help with that.
+An ECG signal is a special type of biological signal which is basically a representation of the electrical activity of the heart.
 
-Also, since the waveform is *denoised* to obtain a *processed* waveform, medical examinations can be conducted on it that can help in the detection of certain types of diseases/disorders like **Angina, Atrial Fibrillation, Diabetes**, etc.
+The code is written in Python and includes various packages such as csv, math, pandas, numpy, matplotlib.pyplot, scipy.fftpack, and scipy.signal.
+
+Also, since the waveform is *denoised* to obtain a *processed* waveform, medical examinations can be conducted on it that can help in the detection of certain types of diseases/disorders .
 
 ## Frequency filtered
 
-![image](https://user-images.githubusercontent.com/92226151/232028762-67a46f17-42ab-4c41-850c-ed7fa437ee0f.png)
-
+<img src = freq.PNG width = 400>
 
 ## Time filtered
 
-<img src = images/time-d.PNG width = 400>
+<img src = time.PNG width = 400>
 
 ## Heart rate calculation via peaks
 
-<img src = images/heart-rate.PNG width = 400>
+<img src = heart-rate.PNG width = 400>
 
 ## Number of heart peaks and calculated heart rate
 
-<img src = images/result.png width = 400>
+<img src = result.PNG width = 400>
