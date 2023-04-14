@@ -8,7 +8,8 @@ Also, since the waveform is *denoised* to obtain a *processed* waveform, medical
 
 ## Frequency filtered
 
-<img src = images/freq-d.PNG width = 400>
+![image](https://user-images.githubusercontent.com/92226151/232028762-67a46f17-42ab-4c41-850c-ed7fa437ee0f.png)
+
 
 ## Time filtered
 
